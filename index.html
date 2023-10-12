@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css?v2322">
-
 </head>
 
 <body>
+
     <div class="cover-site">
         <div id="bgCover"></div>
         <div class="bg-mask"></div>
@@ -55,11 +55,9 @@
                                                 <a href="#" class="lyrics" style="" data-target="#modalLyrics">VER LETRA</a>
                                             </div>
                                         </div>-->
-                                        
                                         <div class="row">
                                             <div class="play-pause col-12 col-md-6 text-center">
-                                                <button  class="btn-play" onclick="togglePlay()"><i id="playerButton" class="fa fa-play"></i> <span id="buttonPlay">Dale Play</span></button>
-                
+                                                <button  class="btn-play" onclick="togglePlay()"><i id="playerButton" class="fa fa-play"></i> <span id="buttonPlay">PLAY</span></button>
                                             </div>
                                         </div>
                                         <div class="row">
@@ -67,9 +65,14 @@
                                                 <div class="row volume-control">
                                                     <div class="volume-icon col-1"><i class="fa fa-volume-up"></i></div>
                                                     <div class="volume-slide col-10 text-center"><input type="range" id="volume"
-                                                            step="1" min="0" max="100" value="50"></div>
-                                                    <div class="percentual-volume col-12">Volumen <span id="volIndicator">...</span>%</div>
+                                                            step="1" min="0" max="100" value="80"></div>
+                                                    <div class="percentual-volume col-12">Volumen: <span id="volIndicator">...</span>%</div>
                                                 </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-md-6 text-center call-lyrics">
+                                                <a href="#" class="lyrics" style="" data-target="#modalLyrics">LYRICS</a>
                                             </div>
                                         </div>
                                     </div>
@@ -87,14 +90,14 @@
                                 <div class="music-info">
                                     <div class="song">No Song</div>
                                     <div class="artist">No Artist</div>
-                                </div>
+                                </div>      
                             </article>
                             <article class="col-12 col-md-6">
                                 <div class="cover-historic"></div>
                                 <div class="music-info">
                                     <div class="song">No Title</div>
                                     <div class="artist">No Artist</div>
-                                </div>
+                                </div>        
                             </article>
                         </div>
                     </div>
@@ -111,9 +114,10 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
+                
                 <div class="modal-body" id="lyric"></div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Cerrar</button>
                 </div>
             </div>
         </div>
